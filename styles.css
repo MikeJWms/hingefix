@@ -78,7 +78,7 @@ ul{
     color: #fff;
     height: 80vh;
     width: 100vw;
-    background-image: linear-gradient(-45deg, rgba(1, 82, 255, 0.37), rgba(13, 147, 209, 0.2)), url("assets/IMG_4347.JPG");
+    background-image: linear-gradient(-45deg, rgba(1, 82, 255, 0.37), rgba(13, 147, 209, 0.2)), url("assets/IMG_4347_tiny.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -146,6 +146,7 @@ ul{
 #problem img{
     width: 100%;
     height: auto;
+    -webkit-clip-path: polygon(42% 8.31%, 71.9% 8.77%, 95.27% 40.92%, 84% 94.74%, 8.33% 93%, 21% 32.14%);
     clip-path: polygon(42% 8.31%, 71.9% 8.77%, 95.27% 40.92%, 84% 94.74%, 8.33% 93%, 21% 32.14%);
     shape-outside: polygon(43.27% -0.63%, 75.71% 2.69%, 100.47% 38.06%, 93.62% 99.39%, 8.35% 99.43%, 19.91% 32.14%);
 }
