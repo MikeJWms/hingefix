@@ -18,7 +18,10 @@ section{
     grid-column: 2 / 2;
 }
 
-button{
+
+
+.button{
+    text-decoration: none;
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
@@ -40,7 +43,7 @@ button{
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-button:hover{
+.button:hover{
     color: #fff;
     background-color: #0069d9;
     border-color: #0062cc;
@@ -67,7 +70,7 @@ ul{
     grid-column: 2 / 3;
     grid-row: 3 / 4
 }
-#hero button{
+#hero .button{
     grid-column: 2 / 3;
     grid-row: 4 / 5;
     justify-self: center;
