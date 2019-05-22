@@ -6,10 +6,10 @@ p{
     line-height: 1.5em;
 }
 .section-wrapper{
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 3em;
-    margin-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
     display: grid;
     grid-template-columns: 1fr minmax(auto, 900px) 1fr;
 }
@@ -76,15 +76,36 @@ ul{
     width: 180px;
 }
 
+#hero-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 80vh;
+}
+#hero-wrapper > video{
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
 #hero {
+    position: relative;
+    z-index: 1;
     color: #fff;
     height: 80vh;
     width: 100vw;
-    background-image: linear-gradient(-45deg, rgba(1, 82, 255, 0.37), rgba(13, 147, 209, 0.2)), url("assets/IMG_4347_tiny.JPG");
+    /* background-image: linear-gradient(-45deg, rgba(1, 82, 255, 0.37), rgba(13, 147, 209, 0.2)), url("assets/IMG_4347_tiny.JPG"); */
+    background-image: linear-gradient(-45deg, rgba(1, 82, 255, 0.37), rgba(13, 147, 209, 0.2));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
+    /* background-color: black; */
     
     display: grid;
     text-align: center;
@@ -92,6 +113,7 @@ ul{
     grid-template-rows: 1fr auto auto auto 1fr;
     grid-row-gap: 1em;
 }
+
 
 .headline{
     display: grid;
@@ -113,6 +135,10 @@ ul{
     align-items: center;
     grid-column-gap: 2em;
     grid-row-gap: 2em;
+}
+
+#benefits{
+    background-color: white;
 }
 
 #benefits h2{
@@ -148,7 +174,10 @@ ul{
     font-size: 1.1em;
     font-style: italic;
 }
-
+#problem{
+    margin-top: 80vh;
+    background-color:white;
+}
 #problem img{
     width: 100%;
     height: auto;
