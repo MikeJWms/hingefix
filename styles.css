@@ -88,9 +88,9 @@ ul{
 #hero-wrapper > video{
     display: block;
     position: absolute;
-    left: 50%;
+    left: 49%;
     transform: translate(-50%, 0%);
-    min-width: 100%;
+    min-width: 105%;
     min-height: 100%;
     z-index: -1;
 }
