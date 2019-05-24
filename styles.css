@@ -78,6 +78,7 @@ ul{
 
 #hero-wrapper{
     overflow-x: hidden;
+    overflow-y: hidden;
     position: absolute;
     top: 0;
     left: 0;
