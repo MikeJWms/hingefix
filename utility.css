@@ -126,3 +126,16 @@
     margin-left: 4em;
     margin-right: 4em;
 }
+
+/* Display */
+.d-block{
+    display: block !important;
+}
+
+/* Row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
