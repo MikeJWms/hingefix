@@ -16,16 +16,24 @@
           alt=""
         />
       </div>
-      <ul class="mv-2 flex flex-wrap justify-items-center">
-        <li class="w-6/12 p-4 text-lg text font-semibold">
-          Faster and easier than any other repair option - takes about 1 minute
-          to install
+      <ul class="mv-2 flex flex-wrap justify-around text-center">
+        <li class="p-4 text-lg text font-semibold">
+          <span class="block font-semibold text-3xl text-gray-700">
+            Faster and easier</span
+          >
+          compared to other repair options
         </li>
-        <li class="w-6/12 p-4 text-lg text font-semibold">
-          Doesn’t limit performance - ear cups can still fold in just like new
+        <li class="p-4 text-lg text font-semibold">
+          <span class="block font-semibold text-3xl text-gray-700">
+            Doesn’t limit performance
+          </span>
+          ear cups can still fold in just like new
         </li>
-        <li class="w-6/12 p-4 text-lg text font-semibold">
-          Discrete, simple design is almost unnoticeable
+        <li class="p-4 text-lg text font-semibold">
+          <span class="block font-semibold text-3xl text-gray-700">
+            Discrete, simple design
+          </span>
+          almost unnoticeable
         </li>
       </ul>
     </section>
